@@ -15,59 +15,75 @@
     <!--Шляпа-->
     <header class="header">
       <div class="container">
-        <nav class="navigation">
-          <a class="logo link" href="index.html" lang="en">
-            <span class="logo-part">Web</span> Studio</a
-          >
-          <ul class="navigation-list list">
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link current" href="index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="navigation-contacts list">
-          <li class="navigation-contacts-list">
-            <address class="navigation-contacts-adress">
-              <a
-                class="navigation-contacts-list-link link"
-                href="mail:info@devstudio.com"
-              >
-                <svg class="icon-mail">
-                  <use href="./images/sprite.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </address>
-          </li>
-          <li class="navigation-contacts-list">
-            <address class="navigation-contacts-adress">
-              <a
-                class="navigation-contacts-list-link link"
-                href="tel:380961111111"
-              >
-                <svg class="icon-phone">
-                  <use href="./images/sprite.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </address>
-          </li>
-        </ul>
+        <a class="logo link" href="index.html" lang="en">
+          <span class="logo-part">Web</span> Studio</a
+        >
+        <button
+          type="button"
+          class="menu-btn"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+          data-menu-button
+        >
+          <svg width="40" height="40">
+            <use class="icon-burger" href="./images/sprite.svg#icon-menu"></use>
+            <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="header-container" data-menu>
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link current" href="index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts-list">
+            <ul class="navigation-contacts list">
+              <li class="navigation-contacts-list">
+                <address class="navigation-contacts-adress">
+                  <a
+                    class="navigation-contacts-list-link link"
+                    href="mail:info@devstudio.com"
+                  >
+                    <svg class="icon-mail">
+                      <use href="./images/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                  </a>
+                </address>
+              </li>
+              <li class="navigation-contacts-list">
+                <address class="navigation-contacts-adress">
+                  <a
+                    class="navigation-contacts-list-link link"
+                    href="tel:380961111111"
+                  >
+                    <svg class="icon-phone">
+                      <use href="./images/sprite.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a
+                  >
+                </address>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <!--Hero СЕКЦИЯ-->
-    <main>
-      <section class="hero">
+    <!--<main>-->
+    <!--<section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Эффективные решения<br />
@@ -75,9 +91,9 @@
           </h1>
           <button data-modal-open class="modal-btn">Заказать услугу</button>
         </div>
-      </section>
-      <!--О Нас-->
-      <section class="about-us">
+      </section>-->
+    <!--О Нас-->
+    <!-- <section class="about-us">
         <div class="container">
           <h2 hidden>О Нас</h2>
           <ul class="about-us-list list">
@@ -135,9 +151,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--Чем Занимаемся-->
-      <section class="what-we-do">
+      </section>-->
+    <!--Чем Занимаемся-->
+    <!--<section class="what-we-do">
         <div class="container">
           <h2 class="heading-title">Чем мы занимаемся</h2>
           <ul class="what-we-do-list list">
@@ -167,9 +183,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--Команда-->
-      <section class="team">
+      </section>-->
+    <!--Команда-->
+    <!--<section class="team">
         <div class="container">
           <h2 class="heading-title">Наша команда</h2>
           <ul class="team-list list">
@@ -403,9 +419,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--Постоянные клиенты-->
-      <section class="ourclients">
+      </section>-->
+    <!--Постоянные клиенты-->
+    <!-- <section class="ourclients">
         <div class="container">
           <h2 class="heading-title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -453,10 +469,10 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
+      </section>-->
+    <!--</main>-->
     <!--Дно-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-part1">
           <a class="logo-footer link" href="index.html" lang="en">
@@ -567,9 +583,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer>-->
     <!--Модальное окно-->
-    <div data-modal class="form-on-backdrop is-hidden">
+    <!--<div data-modal class="form-on-backdrop is-hidden">
       <form action="#" class="modal-form">
         <h3 class="modal-form-name">Оставьте свои данные, мы вам перезвоним</h3>
         <button type="button" data-modal-close class="modal-close-btn">
@@ -654,7 +670,7 @@
         </label>
         <button class="modal-form-accept">Отправить</button>
       </form>
-    </div>
+    </div>-->
 
     <script src="./js/modal.js"></script>
   </body>

@@ -1,0 +1,39 @@
+/*index.html*/
+
+body {
+  background-color: $background-color;
+  font-style: normal;
+  font-family: $main-font;
+  font-size: 14px;
+  color: $secondary-color-text;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.link {
+  text-decoration: none;
+  display: block;
+}
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  margin: 0px;
+}

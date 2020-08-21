@@ -743,7 +743,7 @@ p {
   .navigation-list-link {
     position: relative;
   }
-  .navigation-list-link .current {
+  .navigation-list-link.current {
     color: #2196f3;
   }
   .navigation-list-link:hover, .navigation-list-link:focus {
@@ -759,6 +759,7 @@ p {
     height: 4px;
     background-color: #2196f3;
     border-radius: 2px;
+    bottom: -8px;
   }
   .navigation-list {
     margin-bottom: 60px;

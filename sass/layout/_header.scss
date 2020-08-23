@@ -70,6 +70,22 @@
     padding: 0;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      fill: $accent-color;
+    }
+
+    &.is-open {
+      .icon-close {
+        display: block;
+      }
+
+      .icon-burger {
+        display: none;
+      }
+    }
   }
 
   .icon-close {
@@ -77,6 +93,7 @@
   }
 
   .header-menu {
+    display: none;
     padding-top: 60px;
     padding-right: 120px;
     padding-bottom: 60px;
@@ -88,6 +105,13 @@
     width: 100%;
     background-color: #fff;
     text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #ececec;
+
+    &.is-open {
+      display: block;
+    }
   }
 
   .navigation-list-link,

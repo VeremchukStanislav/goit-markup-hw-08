@@ -703,11 +703,22 @@ p {
     padding: 0;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+  }
+  .menu-btn:hover, .menu-btn:focus {
+    fill: #2196f3;
+  }
+  .menu-btn.is-open .icon-close {
+    display: block;
+  }
+  .menu-btn.is-open .icon-burger {
+    display: none;
   }
   .icon-close {
     display: none;
   }
   .header-menu {
+    display: none;
     padding-top: 60px;
     padding-right: 120px;
     padding-bottom: 60px;
@@ -719,6 +730,12 @@ p {
     width: 100%;
     background-color: #fff;
     text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #ececec;
+  }
+  .header-menu.is-open {
+    display: block;
   }
   .navigation-list-link,
   .navigation-contacts-list-link {

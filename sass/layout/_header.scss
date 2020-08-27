@@ -55,10 +55,6 @@
     }
   }
 
-  .link {
-    display: inline;
-  }
-
   .logo {
     display: block;
     padding: 0;
@@ -173,6 +169,10 @@
     &-link {
       padding: 0;
     }
+
+    .link {
+      display: inline;
+    }
   }
 
   .navigation-contacts {
@@ -234,12 +234,9 @@
   .header {
     position: relative;
     max-width: 480px;
-    margin: 0 auto;
 
     > .container {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
       padding-top: 0;
       padding-bottom: 0;
     }
@@ -301,7 +298,7 @@
     height: 4px;
     background-color: $accent-color;
     border-radius: 2px;
-    bottom: -8px;
+    bottom: -32px;
   }
 
   .navigation-contacts {

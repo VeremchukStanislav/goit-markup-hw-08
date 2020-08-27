@@ -15,7 +15,9 @@
     color: $accent-color;
   }
 }
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .navigation-list-link,
 .navigation-contacts-list-link {
   font-family: $main-font;
@@ -89,6 +91,7 @@
   }
 
   .header-menu {
+    z-index: 1;
     display: none;
     display: block;
     padding-top: 60px;
@@ -233,7 +236,6 @@
 
   .header {
     position: relative;
-    max-width: 480px;
 
     > .container {
       display: flex;

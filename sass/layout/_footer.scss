@@ -1,8 +1,19 @@
 /*Footer*/
 
 @media screen and (max-width: 767px) {
+  .footer-part3 {
+    width: 100%;
+  }
+  .footer-part2 {
+    width: 100%;
+  }
+  .footer-part1 {
+    width: 100%;
+  }
   .footer {
     background-color: $background-footer-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     > .container {
       display: flex;
@@ -11,7 +22,6 @@
   }
   .logo-footer {
     text-align: center;
-    padding-top: 60px;
     margin-bottom: 20px;
     font-family: $secondary-font;
     font-weight: 700;
@@ -84,6 +94,7 @@
   .join-in-list {
     display: flex;
     margin-bottom: 60px;
+    justify-content: center;
   }
   .join-in-item:not(:last-child) {
     margin-right: 10px;
@@ -121,7 +132,6 @@
     font-family: $main-font;
     color: $third-color-text;
     background-color: $accent-color;
-    margin-bottom: 60px;
     padding-top: 10px;
     padding-right: 28px;
     padding-bottom: 10px;

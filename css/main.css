@@ -2186,8 +2186,19 @@ p {
 
 /*Footer*/
 @media screen and (max-width: 767px) {
+  .footer-part3 {
+    width: 100%;
+  }
+  .footer-part2 {
+    width: 100%;
+  }
+  .footer-part1 {
+    width: 100%;
+  }
   .footer {
     background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .footer > .container {
     display: flex;
@@ -2195,7 +2206,6 @@ p {
   }
   .logo-footer {
     text-align: center;
-    padding-top: 60px;
     margin-bottom: 20px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -2264,6 +2274,7 @@ p {
   .join-in-list {
     display: flex;
     margin-bottom: 60px;
+    justify-content: center;
   }
   .join-in-item:not(:last-child) {
     margin-right: 10px;
@@ -2301,7 +2312,6 @@ p {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     background-color: #2196f3;
-    margin-bottom: 60px;
     padding-top: 10px;
     padding-right: 28px;
     padding-bottom: 10px;

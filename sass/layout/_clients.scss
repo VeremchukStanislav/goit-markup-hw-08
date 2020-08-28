@@ -10,11 +10,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
 
-    &-item:nth-child(odd) {
+  .clients-list-item {
+    flex-basis: calc((100% - 30px) / 2);
+
+    &:not(:nth-child(2n)) {
       margin-right: 30px;
     }
-    &-item:nth-child(-n + 5) {
+
+    &:not(:nth-last-child(-n + 2)) {
       margin-bottom: 30px;
     }
   }
@@ -24,7 +29,6 @@
     align-items: center;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    width: 170px;
     height: 90px;
     color: $color-icons;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

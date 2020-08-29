@@ -47,7 +47,7 @@
 @media screen and (max-width: 767px) {
   .header {
     position: relative;
-    max-width: 480px;
+    max-width: 767px;
     margin: 0 auto;
 
     > .container {
@@ -236,7 +236,7 @@
 
   .header {
     position: relative;
-    max-width: 480px;
+    max-width: 1199px;
 
     > .container {
       display: flex;
@@ -305,7 +305,7 @@
     height: 4px;
     background-color: $accent-color;
     border-radius: 2px;
-    bottom: -32px;
+    bottom: -33px;
   }
 
   .navigation-contacts {
